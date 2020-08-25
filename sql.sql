@@ -22,9 +22,9 @@ INSERT INTO firsts SET name = 'Иван', lastname='Иванов', phone='111';
 INSERT INTO firsts SET name = 'Петр', lastname='Петров', phone='222';
 INSERT INTO firsts SET name = 'Сидор', lastname='Сидоров', phone='333';
 
-INSERT INTO seconds SET name = 'Neve', lastname='Campbell', phone='111', first_id = '0';
-INSERT INTO seconds SET name = 'Mia', lastname='Goth', phone='222', first_id = '0';
-INSERT INTO seconds SET name = 'Lucy', lastname='Liu', phone='333', first_id = '0';
+INSERT INTO seconds SET name = 'Neve', lastname='Campbell', phone='111', first_id = '1';
+INSERT INTO seconds SET name = 'Mia', lastname='Goth', phone='222', first_id = '1';
+INSERT INTO seconds SET name = 'Lucy', lastname='Liu', phone='333', first_id = '2';
 INSERT INTO seconds SET name = 'Gemma', lastname='Arterton', phone='444', first_id = '0';
 INSERT INTO seconds SET name = 'Chloe', lastname='Moretz', phone='555', first_id = '0';
 INSERT INTO seconds SET name = 'Taylor', lastname='Swift', phone='000', first_id = '0';

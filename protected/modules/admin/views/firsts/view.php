@@ -41,7 +41,7 @@ $this->menu=array(
             'viewButtonUrl'=>'Yii::app()->createUrl("admin/seconds/view", array("id" => $data->id))',
             //'deleteButtonUrl'=>'Yii::app()->createUrl("admin/seconds/view", array("id" => $data->id))',
             'deleteButtonUrl'=>'Yii::app()->createUrl("admin/firsts/deletefrom", array("id" => $data->id))',
-            //'updateButtonOptions' => array('style'=>'display:none'),
+            'updateButtonOptions' => array('style'=>'display:none'),
             'updateButtonUrl'=>'Yii::app()->createUrl("admin/seconds/view", array("id" => $data->id))',
 
         ),

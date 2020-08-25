@@ -10931,3 +10931,12 @@ Stack trace:
 REQUEST_URI=/admin/seconds/view/id/%5B0%5Did
 HTTP_REFERER=http://folder/admin/firsts/add/id/1
 ---
+2020/08/26 01:53:25 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "favicon.ico". in D:\OpenServer\OSPanel\domains\folder\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\OSPanel\domains\folder\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\OpenServer\OSPanel\domains\folder\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\OpenServer\OSPanel\domains\folder\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://folder/
+---
